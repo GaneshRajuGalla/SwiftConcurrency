@@ -51,7 +51,7 @@ extension DoCatchTryThrowView{
                 .font(.headline)
                 .foregroundColor(.white)
                 .fontWeight(.bold)
-                .withDoCatchTryThrowModifier(backgroundColor: .green.opacity(0.7))
+                .withDoCatchTryThrowModifier(backgroundColor: .green.opacity(0.6))
         }
     }
 }
