@@ -51,7 +51,7 @@ extension DoCatchTryThrowView{
                 .font(.headline)
                 .foregroundColor(.white)
                 .fontWeight(.bold)
-                .withDoCatchTryThrowModifier(backgroundColor: .green.opacity(0.6))
+                .withDoCatchTryThrowModifier(backgroundColor: .green.opacity(0.7))
         }
     }
 }
@@ -72,7 +72,7 @@ struct DoCatchTryThrowModifier:ViewModifier{
 
 extension View{
     
-    func withDoCatchTryThrowModifier(backgroundColor:Color = Color.red.opacity(0.7)) -> some View{
+    func withDoCatchTryThrowModifier(backgroundColor:Color = Color.red.opacity(0.6)) -> some View{
         modifier(DoCatchTryThrowModifier(backgroundColor: backgroundColor))
     }
 }
