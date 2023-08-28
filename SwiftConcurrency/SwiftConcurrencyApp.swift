@@ -15,7 +15,10 @@ struct SwiftConcurrencyApp: App {
             //DoCatchTryThrowView(manager: DoCatchTryThrowDataManager())
             
             // 2
-            DownloadImageAsyncView()
+            //DownloadImageAsyncView()
+            
+            // 3
+            AsyncAwaitView()
         }
     }
 }
