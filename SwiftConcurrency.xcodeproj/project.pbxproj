@@ -13,6 +13,9 @@
 		1FC7D5FF2A9B7C8500D52721 /* DoCatchTryThrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7D5FE2A9B7C8500D52721 /* DoCatchTryThrowView.swift */; };
 		1FC7D6032A9B7CC200D52721 /* DoCatchTryThrowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7D6022A9B7CC200D52721 /* DoCatchTryThrowViewModel.swift */; };
 		1FC7D6052A9B7E7700D52721 /* DoCatchTryThrowDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7D6042A9B7E7700D52721 /* DoCatchTryThrowDataManager.swift */; };
+		1FEA23062A9D00BE004C4717 /*  DownloadImageAsyncView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA23052A9D00BE004C4717 /*  DownloadImageAsyncView.swift */; };
+		1FEA23082A9D00C6004C4717 /*  DownloadImageAsyncViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA23072A9D00C6004C4717 /*  DownloadImageAsyncViewModel.swift */; };
+		1FEA230A2A9D00D0004C4717 /*  DownloadImageAsyncServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEA23092A9D00D0004C4717 /*  DownloadImageAsyncServices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		1FC7D5FE2A9B7C8500D52721 /* DoCatchTryThrowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrowView.swift; sourceTree = "<group>"; };
 		1FC7D6022A9B7CC200D52721 /* DoCatchTryThrowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrowViewModel.swift; sourceTree = "<group>"; };
 		1FC7D6042A9B7E7700D52721 /* DoCatchTryThrowDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrowDataManager.swift; sourceTree = "<group>"; };
+		1FEA23052A9D00BE004C4717 /*  DownloadImageAsyncView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " DownloadImageAsyncView.swift"; sourceTree = "<group>"; };
+		1FEA23072A9D00C6004C4717 /*  DownloadImageAsyncViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " DownloadImageAsyncViewModel.swift"; sourceTree = "<group>"; };
+		1FEA23092A9D00D0004C4717 /*  DownloadImageAsyncServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " DownloadImageAsyncServices.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,9 +98,20 @@
 		1FC7D6012A9B7CA300D52721 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				1FEA23042A9D00B4004C4717 /*  DownloadImageAsync */,
 				1FC7D5FD2A9B7C6600D52721 /* DoCatchTryThrow */,
 			);
 			path = Features;
+			sourceTree = "<group>";
+		};
+		1FEA23042A9D00B4004C4717 /*  DownloadImageAsync */ = {
+			isa = PBXGroup;
+			children = (
+				1FEA23052A9D00BE004C4717 /*  DownloadImageAsyncView.swift */,
+				1FEA23072A9D00C6004C4717 /*  DownloadImageAsyncViewModel.swift */,
+				1FEA23092A9D00D0004C4717 /*  DownloadImageAsyncServices.swift */,
+			);
+			path = " DownloadImageAsync";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,10 +184,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FEA23082A9D00C6004C4717 /*  DownloadImageAsyncViewModel.swift in Sources */,
 				1FC7D5FF2A9B7C8500D52721 /* DoCatchTryThrowView.swift in Sources */,
 				1FC7D6032A9B7CC200D52721 /* DoCatchTryThrowViewModel.swift in Sources */,
 				1FC7D6052A9B7E7700D52721 /* DoCatchTryThrowDataManager.swift in Sources */,
+				1FEA23062A9D00BE004C4717 /*  DownloadImageAsyncView.swift in Sources */,
 				1FC7D5F02A9B76AF00D52721 /* SwiftConcurrencyApp.swift in Sources */,
+				1FEA230A2A9D00D0004C4717 /*  DownloadImageAsyncServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,11 @@ import SwiftUI
 struct SwiftConcurrencyApp: App {
     var body: some Scene {
         WindowGroup {
-            DoCatchTryThrowView(manager: DoCatchTryThrowDataManager())
+            // 1
+            //DoCatchTryThrowView(manager: DoCatchTryThrowDataManager())
+            
+            // 2
+            DownloadImageAsyncView()
         }
     }
 }
