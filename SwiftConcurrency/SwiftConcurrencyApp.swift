@@ -18,7 +18,10 @@ struct SwiftConcurrencyApp: App {
             //DownloadImageAsyncView()
             
             // 3
-            AsyncAwaitView()
+            //AsyncAwaitView()
+            
+            // 4
+            TaskHomeView()
         }
     }
 }

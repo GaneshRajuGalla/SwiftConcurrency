@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F05BD952A9EC2F5008F6594 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05BD942A9EC2F5008F6594 /* TasksView.swift */; };
+		1F05BD972A9EC303008F6594 /* TasksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05BD962A9EC303008F6594 /* TasksViewModel.swift */; };
 		1FC7D5F02A9B76AF00D52721 /* SwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7D5EF2A9B76AF00D52721 /* SwiftConcurrencyApp.swift */; };
 		1FC7D5F42A9B76AF00D52721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC7D5F32A9B76AF00D52721 /* Assets.xcassets */; };
 		1FC7D5F72A9B76AF00D52721 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC7D5F62A9B76AF00D52721 /* Preview Assets.xcassets */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F05BD942A9EC2F5008F6594 /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		1F05BD962A9EC303008F6594 /* TasksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewModel.swift; sourceTree = "<group>"; };
 		1FC7D5EC2A9B76AF00D52721 /* SwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC7D5EF2A9B76AF00D52721 /* SwiftConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyApp.swift; sourceTree = "<group>"; };
 		1FC7D5F32A9B76AF00D52721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,6 +50,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F05BD932A9EC2D8008F6594 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				1F05BD942A9EC2F5008F6594 /* TasksView.swift */,
+				1F05BD962A9EC303008F6594 /* TasksViewModel.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
 		1FC7D5E32A9B76AF00D52721 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +115,7 @@
 		1FC7D6012A9B7CA300D52721 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				1F05BD932A9EC2D8008F6594 /* Tasks */,
 				1FEA230B2A9D1D27004C4717 /* AsyncAwait */,
 				1FEA23042A9D00B4004C4717 /*  DownloadImageAsync */,
 				1FC7D5FD2A9B7C6600D52721 /* DoCatchTryThrow */,
@@ -207,6 +221,8 @@
 				1FC7D5F02A9B76AF00D52721 /* SwiftConcurrencyApp.swift in Sources */,
 				1FEA230D2A9D1D2F004C4717 /* AsyncAwaitView.swift in Sources */,
 				1FEA230A2A9D00D0004C4717 /*  DownloadImageAsyncServices.swift in Sources */,
+				1F05BD952A9EC2F5008F6594 /* TasksView.swift in Sources */,
+				1F05BD972A9EC303008F6594 /* TasksViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
