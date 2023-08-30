@@ -11,6 +11,9 @@
 		1F05BD972A9EC303008F6594 /* TasksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05BD962A9EC303008F6594 /* TasksViewModel.swift */; };
 		1F05BD9A2A9F086B008F6594 /* AsyncLetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05BD992A9F086B008F6594 /* AsyncLetView.swift */; };
 		1F05BD9C2A9F0875008F6594 /* AsyncLetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05BD9B2A9F0875008F6594 /* AsyncLetViewModel.swift */; };
+		1F05BD9F2A9F1D1B008F6594 /* TaskGroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05BD9E2A9F1D1B008F6594 /* TaskGroupViewModel.swift */; };
+		1F05BDA12A9F1D2F008F6594 /* TaskGroupDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05BDA02A9F1D2F008F6594 /* TaskGroupDataManager.swift */; };
+		1F05BDA32A9F1D40008F6594 /* TaskGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05BDA22A9F1D40008F6594 /* TaskGroupView.swift */; };
 		1FC7D5F02A9B76AF00D52721 /* SwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7D5EF2A9B76AF00D52721 /* SwiftConcurrencyApp.swift */; };
 		1FC7D5F42A9B76AF00D52721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC7D5F32A9B76AF00D52721 /* Assets.xcassets */; };
 		1FC7D5F72A9B76AF00D52721 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC7D5F62A9B76AF00D52721 /* Preview Assets.xcassets */; };
@@ -29,6 +32,9 @@
 		1F05BD962A9EC303008F6594 /* TasksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewModel.swift; sourceTree = "<group>"; };
 		1F05BD992A9F086B008F6594 /* AsyncLetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetView.swift; sourceTree = "<group>"; };
 		1F05BD9B2A9F0875008F6594 /* AsyncLetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetViewModel.swift; sourceTree = "<group>"; };
+		1F05BD9E2A9F1D1B008F6594 /* TaskGroupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupViewModel.swift; sourceTree = "<group>"; };
+		1F05BDA02A9F1D2F008F6594 /* TaskGroupDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupDataManager.swift; sourceTree = "<group>"; };
+		1F05BDA22A9F1D40008F6594 /* TaskGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupView.swift; sourceTree = "<group>"; };
 		1FC7D5EC2A9B76AF00D52721 /* SwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC7D5EF2A9B76AF00D52721 /* SwiftConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyApp.swift; sourceTree = "<group>"; };
 		1FC7D5F32A9B76AF00D52721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -70,6 +76,16 @@
 				1F05BD9B2A9F0875008F6594 /* AsyncLetViewModel.swift */,
 			);
 			path = AsyncLet;
+			sourceTree = "<group>";
+		};
+		1F05BD9D2A9F1D0C008F6594 /* TaskGroup */ = {
+			isa = PBXGroup;
+			children = (
+				1F05BD9E2A9F1D1B008F6594 /* TaskGroupViewModel.swift */,
+				1F05BDA02A9F1D2F008F6594 /* TaskGroupDataManager.swift */,
+				1F05BDA22A9F1D40008F6594 /* TaskGroupView.swift */,
+			);
+			path = TaskGroup;
 			sourceTree = "<group>";
 		};
 		1FC7D5E32A9B76AF00D52721 = {
@@ -128,6 +144,7 @@
 		1FC7D6012A9B7CA300D52721 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				1F05BD9D2A9F1D0C008F6594 /* TaskGroup */,
 				1F05BD982A9F0851008F6594 /* AsyncLet */,
 				1F05BD932A9EC2D8008F6594 /* Tasks */,
 				1FEA230B2A9D1D27004C4717 /* AsyncAwait */,
@@ -231,8 +248,11 @@
 				1FC7D6032A9B7CC200D52721 /* DoCatchTryThrowViewModel.swift in Sources */,
 				1FC7D6052A9B7E7700D52721 /* DoCatchTryThrowDataManager.swift in Sources */,
 				1F05BD9C2A9F0875008F6594 /* AsyncLetViewModel.swift in Sources */,
+				1F05BD9F2A9F1D1B008F6594 /* TaskGroupViewModel.swift in Sources */,
 				1FEA23062A9D00BE004C4717 /*  DownloadImageAsyncView.swift in Sources */,
+				1F05BDA12A9F1D2F008F6594 /* TaskGroupDataManager.swift in Sources */,
 				1FEA230F2A9D1D38004C4717 /* AsyncAwaitViewModel.swift in Sources */,
+				1F05BDA32A9F1D40008F6594 /* TaskGroupView.swift in Sources */,
 				1FC7D5F02A9B76AF00D52721 /* SwiftConcurrencyApp.swift in Sources */,
 				1F05BD9A2A9F086B008F6594 /* AsyncLetView.swift in Sources */,
 				1FEA230D2A9D1D2F004C4717 /* AsyncAwaitView.swift in Sources */,
