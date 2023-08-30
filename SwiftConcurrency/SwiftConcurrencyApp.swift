@@ -21,7 +21,10 @@ struct SwiftConcurrencyApp: App {
             //AsyncAwaitView()
             
             // 4
-            TaskHomeView()
+            //TaskHomeView()
+            
+            // 5
+            AsyncLetView()
         }
     }
 }
