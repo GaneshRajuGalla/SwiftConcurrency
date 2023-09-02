@@ -14,6 +14,9 @@
 		1F05BD9F2A9F1D1B008F6594 /* TaskGroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05BD9E2A9F1D1B008F6594 /* TaskGroupViewModel.swift */; };
 		1F05BDA12A9F1D2F008F6594 /* TaskGroupDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05BDA02A9F1D2F008F6594 /* TaskGroupDataManager.swift */; };
 		1F05BDA32A9F1D40008F6594 /* TaskGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F05BDA22A9F1D40008F6594 /* TaskGroupView.swift */; };
+		1F32F2E82AA3C57B00DA1330 /* CheckedContinuationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32F2E72AA3C57B00DA1330 /* CheckedContinuationView.swift */; };
+		1F32F2EA2AA3C58700DA1330 /* CheckedContinuationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32F2E92AA3C58700DA1330 /* CheckedContinuationViewModel.swift */; };
+		1F32F2EC2AA3C59A00DA1330 /* CheckedContinuationDataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32F2EB2AA3C59A00DA1330 /* CheckedContinuationDataServices.swift */; };
 		1FC7D5F02A9B76AF00D52721 /* SwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7D5EF2A9B76AF00D52721 /* SwiftConcurrencyApp.swift */; };
 		1FC7D5F42A9B76AF00D52721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC7D5F32A9B76AF00D52721 /* Assets.xcassets */; };
 		1FC7D5F72A9B76AF00D52721 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC7D5F62A9B76AF00D52721 /* Preview Assets.xcassets */; };
@@ -35,6 +38,9 @@
 		1F05BD9E2A9F1D1B008F6594 /* TaskGroupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupViewModel.swift; sourceTree = "<group>"; };
 		1F05BDA02A9F1D2F008F6594 /* TaskGroupDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupDataManager.swift; sourceTree = "<group>"; };
 		1F05BDA22A9F1D40008F6594 /* TaskGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupView.swift; sourceTree = "<group>"; };
+		1F32F2E72AA3C57B00DA1330 /* CheckedContinuationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedContinuationView.swift; sourceTree = "<group>"; };
+		1F32F2E92AA3C58700DA1330 /* CheckedContinuationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedContinuationViewModel.swift; sourceTree = "<group>"; };
+		1F32F2EB2AA3C59A00DA1330 /* CheckedContinuationDataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedContinuationDataServices.swift; sourceTree = "<group>"; };
 		1FC7D5EC2A9B76AF00D52721 /* SwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC7D5EF2A9B76AF00D52721 /* SwiftConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyApp.swift; sourceTree = "<group>"; };
 		1FC7D5F32A9B76AF00D52721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -86,6 +92,16 @@
 				1F05BDA22A9F1D40008F6594 /* TaskGroupView.swift */,
 			);
 			path = TaskGroup;
+			sourceTree = "<group>";
+		};
+		1F32F2E62AA3C56100DA1330 /* Continuations */ = {
+			isa = PBXGroup;
+			children = (
+				1F32F2E72AA3C57B00DA1330 /* CheckedContinuationView.swift */,
+				1F32F2E92AA3C58700DA1330 /* CheckedContinuationViewModel.swift */,
+				1F32F2EB2AA3C59A00DA1330 /* CheckedContinuationDataServices.swift */,
+			);
+			path = Continuations;
 			sourceTree = "<group>";
 		};
 		1FC7D5E32A9B76AF00D52721 = {
@@ -144,6 +160,7 @@
 		1FC7D6012A9B7CA300D52721 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				1F32F2E62AA3C56100DA1330 /* Continuations */,
 				1F05BD9D2A9F1D0C008F6594 /* TaskGroup */,
 				1F05BD982A9F0851008F6594 /* AsyncLet */,
 				1F05BD932A9EC2D8008F6594 /* Tasks */,
@@ -252,12 +269,15 @@
 				1FEA23062A9D00BE004C4717 /*  DownloadImageAsyncView.swift in Sources */,
 				1F05BDA12A9F1D2F008F6594 /* TaskGroupDataManager.swift in Sources */,
 				1FEA230F2A9D1D38004C4717 /* AsyncAwaitViewModel.swift in Sources */,
+				1F32F2EC2AA3C59A00DA1330 /* CheckedContinuationDataServices.swift in Sources */,
+				1F32F2EA2AA3C58700DA1330 /* CheckedContinuationViewModel.swift in Sources */,
 				1F05BDA32A9F1D40008F6594 /* TaskGroupView.swift in Sources */,
 				1FC7D5F02A9B76AF00D52721 /* SwiftConcurrencyApp.swift in Sources */,
 				1F05BD9A2A9F086B008F6594 /* AsyncLetView.swift in Sources */,
 				1FEA230D2A9D1D2F004C4717 /* AsyncAwaitView.swift in Sources */,
 				1FEA230A2A9D00D0004C4717 /*  DownloadImageAsyncServices.swift in Sources */,
 				1F05BD952A9EC2F5008F6594 /* TasksView.swift in Sources */,
+				1F32F2E82AA3C57B00DA1330 /* CheckedContinuationView.swift in Sources */,
 				1F05BD972A9EC303008F6594 /* TasksViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

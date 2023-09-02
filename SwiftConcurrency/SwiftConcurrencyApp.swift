@@ -27,7 +27,10 @@ struct SwiftConcurrencyApp: App {
             //AsyncLetView()
             
             // 6
-            TaskGroupView(manager: TaskGroupDataManager(), urlString: "https://picsum.photos/200")
+            //TaskGroupView(manager: TaskGroupDataManager(), urlString: "https://picsum.photos/200")
+            
+            // 7
+            CheckedContinuationView(dataService: CheckedContinuationDataServices(), urlString: "https://picsum.photos/200")
         }
     }
 }
