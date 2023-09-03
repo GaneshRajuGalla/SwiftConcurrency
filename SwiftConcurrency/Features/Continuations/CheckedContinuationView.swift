@@ -29,10 +29,10 @@ struct CheckedContinuationView: View {
             //await viewModel.fetchImage()
             
             // 2
-            await viewModel.fetchImage2()
+            //await viewModel.fetchImage2()
             
             //3
-            //await viewModel.fetchImageFromDatabase()
+            await viewModel.fetchImageFromDatabase()
         }
     }
 }

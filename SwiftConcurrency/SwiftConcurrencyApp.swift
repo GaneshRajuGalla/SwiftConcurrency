@@ -30,7 +30,11 @@ struct SwiftConcurrencyApp: App {
             //TaskGroupView(manager: TaskGroupDataManager(), urlString: "https://picsum.photos/200")
             
             // 7
-            CheckedContinuationView(dataService: CheckedContinuationDataServices(), urlString: "https://picsum.photos/200")
+            //CheckedContinuationView(dataService: CheckedContinuationDataServices(), urlString: "https://picsum.photos/200")
+            
+            // 8
+           // StructClassActor()
+            StructClassActorHomeView()
         }
     }
 }

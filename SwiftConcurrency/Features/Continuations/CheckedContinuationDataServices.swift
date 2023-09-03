@@ -45,7 +45,7 @@ class CheckedContinuationDataServices: CheckedContinuationProtocol {
     private func fetchDataFromDatabase(completionHandler: @escaping (_ image: UIImage) -> ()) {
         // Mocking Data Fetching from DB
         DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
-            completionHandler(UIImage(systemName: "flame.fill")!)
+            completionHandler(UIImage(systemName: "heart.fill")!)
         }
     }
     
