@@ -37,7 +37,10 @@ struct SwiftConcurrencyApp: App {
             //StructClassActorHomeView()
             
             // 9
-            ActorsView()
+            //ActorsView()
+            
+            // 10
+            GloabalActor()
         }
     }
 }

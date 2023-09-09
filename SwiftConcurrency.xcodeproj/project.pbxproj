@@ -25,6 +25,9 @@
 		1F94C5E72AA4AD8A00F6329A /* MVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F94C5E62AA4AD8A00F6329A /* MVVM.swift */; };
 		1F94C5EA2AA5091E00F6329A /* ActorsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F94C5E92AA5091E00F6329A /* ActorsDataManager.swift */; };
 		1F94C5EC2AA5092F00F6329A /* ActorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F94C5EB2AA5092F00F6329A /* ActorsView.swift */; };
+		1F9DE82D2AAC6F4A00FB8152 /* GloabalActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9DE82C2AAC6F4A00FB8152 /* GloabalActor.swift */; };
+		1F9DE8302AAC6F6400FB8152 /* GlobalActorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9DE82F2AAC6F6400FB8152 /* GlobalActorViewModel.swift */; };
+		1F9DE8322AAC6F7200FB8152 /* GloablActorDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9DE8312AAC6F7200FB8152 /* GloablActorDataManager.swift */; };
 		1FC7D5F02A9B76AF00D52721 /* SwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7D5EF2A9B76AF00D52721 /* SwiftConcurrencyApp.swift */; };
 		1FC7D5F42A9B76AF00D52721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC7D5F32A9B76AF00D52721 /* Assets.xcassets */; };
 		1FC7D5F72A9B76AF00D52721 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC7D5F62A9B76AF00D52721 /* Preview Assets.xcassets */; };
@@ -57,6 +60,9 @@
 		1F94C5E62AA4AD8A00F6329A /* MVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM.swift; sourceTree = "<group>"; };
 		1F94C5E92AA5091E00F6329A /* ActorsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorsDataManager.swift; sourceTree = "<group>"; };
 		1F94C5EB2AA5092F00F6329A /* ActorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorsView.swift; sourceTree = "<group>"; };
+		1F9DE82C2AAC6F4A00FB8152 /* GloabalActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloabalActor.swift; sourceTree = "<group>"; };
+		1F9DE82F2AAC6F6400FB8152 /* GlobalActorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalActorViewModel.swift; sourceTree = "<group>"; };
+		1F9DE8312AAC6F7200FB8152 /* GloablActorDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloablActorDataManager.swift; sourceTree = "<group>"; };
 		1FC7D5EC2A9B76AF00D52721 /* SwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC7D5EF2A9B76AF00D52721 /* SwiftConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyApp.swift; sourceTree = "<group>"; };
 		1FC7D5F32A9B76AF00D52721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -142,6 +148,16 @@
 			path = Actors;
 			sourceTree = "<group>";
 		};
+		1F9DE82B2AAC6F2700FB8152 /* GlobalActors */ = {
+			isa = PBXGroup;
+			children = (
+				1F9DE82C2AAC6F4A00FB8152 /* GloabalActor.swift */,
+				1F9DE82F2AAC6F6400FB8152 /* GlobalActorViewModel.swift */,
+				1F9DE8312AAC6F7200FB8152 /* GloablActorDataManager.swift */,
+			);
+			path = GlobalActors;
+			sourceTree = "<group>";
+		};
 		1FC7D5E32A9B76AF00D52721 = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +214,7 @@
 		1FC7D6012A9B7CA300D52721 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				1F9DE82B2AAC6F2700FB8152 /* GlobalActors */,
 				1F94C5E82AA5090A00F6329A /* Actors */,
 				1F94C5DB2AA4640800F6329A /* StructClassActor */,
 				1F32F2E62AA3C56100DA1330 /* Continuations */,
@@ -303,12 +320,14 @@
 				1FEA23082A9D00C6004C4717 /*  DownloadImageAsyncViewModel.swift in Sources */,
 				1F94C5DD2AA4641F00F6329A /* StructClassActor.swift in Sources */,
 				1FC7D5FF2A9B7C8500D52721 /* DoCatchTryThrowView.swift in Sources */,
+				1F9DE8302AAC6F6400FB8152 /* GlobalActorViewModel.swift in Sources */,
 				1F94C5DF2AA4AB0300F6329A /* Structs.swift in Sources */,
 				1FC7D6032A9B7CC200D52721 /* DoCatchTryThrowViewModel.swift in Sources */,
 				1FC7D6052A9B7E7700D52721 /* DoCatchTryThrowDataManager.swift in Sources */,
 				1F05BD9C2A9F0875008F6594 /* AsyncLetViewModel.swift in Sources */,
 				1F05BD9F2A9F1D1B008F6594 /* TaskGroupViewModel.swift in Sources */,
 				1FEA23062A9D00BE004C4717 /*  DownloadImageAsyncView.swift in Sources */,
+				1F9DE8322AAC6F7200FB8152 /* GloablActorDataManager.swift in Sources */,
 				1F05BDA12A9F1D2F008F6594 /* TaskGroupDataManager.swift in Sources */,
 				1FEA230F2A9D1D38004C4717 /* AsyncAwaitViewModel.swift in Sources */,
 				1F32F2EC2AA3C59A00DA1330 /* CheckedContinuationDataServices.swift in Sources */,
@@ -316,6 +335,7 @@
 				1F94C5E32AA4AB7300F6329A /* Actors.swift in Sources */,
 				1F05BDA32A9F1D40008F6594 /* TaskGroupView.swift in Sources */,
 				1FC7D5F02A9B76AF00D52721 /* SwiftConcurrencyApp.swift in Sources */,
+				1F9DE82D2AAC6F4A00FB8152 /* GloabalActor.swift in Sources */,
 				1F94C5E72AA4AD8A00F6329A /* MVVM.swift in Sources */,
 				1F05BD9A2A9F086B008F6594 /* AsyncLetView.swift in Sources */,
 				1FEA230D2A9D1D2F004C4717 /* AsyncAwaitView.swift in Sources */,
