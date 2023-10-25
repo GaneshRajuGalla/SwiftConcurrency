@@ -25,10 +25,22 @@ struct SendableView: View{
 
 
 
-
+// Value Type Struct -> Thread Safe
 struct SendableUserStruct: Sendable{
     let name:String
+    var name2:String = ""
+    /*
+         var -> can be sendable
+         */
 }
+
+struct SendableUserStruct2 {
+    let name: String
+    var name2: String = ""
+    // Whether or not using Sendable keyword, it would be sendable
+    // but using Sendable protocol keyword, its performance would be better
+}
+
 
 // MARK: - Class
 

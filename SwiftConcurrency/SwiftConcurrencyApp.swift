@@ -40,7 +40,10 @@ struct SwiftConcurrencyApp: App {
             //ActorsView()
             
             // 10
-            GloabalActor()
+            //GloabalActor()
+            
+            // 12
+            AsyncPublisherView()
         }
     }
 }
