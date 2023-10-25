@@ -17,6 +17,9 @@
 		1F32F2E82AA3C57B00DA1330 /* CheckedContinuationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32F2E72AA3C57B00DA1330 /* CheckedContinuationView.swift */; };
 		1F32F2EA2AA3C58700DA1330 /* CheckedContinuationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32F2E92AA3C58700DA1330 /* CheckedContinuationViewModel.swift */; };
 		1F32F2EC2AA3C59A00DA1330 /* CheckedContinuationDataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32F2EB2AA3C59A00DA1330 /* CheckedContinuationDataServices.swift */; };
+		1F4772552AE97FBF00FDAB6E /* SendableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4772542AE97FBF00FDAB6E /* SendableView.swift */; };
+		1F4772572AE97FCD00FDAB6E /* SendableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4772562AE97FCD00FDAB6E /* SendableViewModel.swift */; };
+		1F4772592AE97FDC00FDAB6E /* SendableActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4772582AE97FDC00FDAB6E /* SendableActor.swift */; };
 		1F94C5DD2AA4641F00F6329A /* StructClassActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F94C5DC2AA4641F00F6329A /* StructClassActor.swift */; };
 		1F94C5DF2AA4AB0300F6329A /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F94C5DE2AA4AB0300F6329A /* Structs.swift */; };
 		1F94C5E12AA4AB5C00F6329A /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F94C5E02AA4AB5C00F6329A /* Classes.swift */; };
@@ -52,6 +55,9 @@
 		1F32F2E72AA3C57B00DA1330 /* CheckedContinuationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedContinuationView.swift; sourceTree = "<group>"; };
 		1F32F2E92AA3C58700DA1330 /* CheckedContinuationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedContinuationViewModel.swift; sourceTree = "<group>"; };
 		1F32F2EB2AA3C59A00DA1330 /* CheckedContinuationDataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedContinuationDataServices.swift; sourceTree = "<group>"; };
+		1F4772542AE97FBF00FDAB6E /* SendableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendableView.swift; sourceTree = "<group>"; };
+		1F4772562AE97FCD00FDAB6E /* SendableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendableViewModel.swift; sourceTree = "<group>"; };
+		1F4772582AE97FDC00FDAB6E /* SendableActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendableActor.swift; sourceTree = "<group>"; };
 		1F94C5DC2AA4641F00F6329A /* StructClassActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructClassActor.swift; sourceTree = "<group>"; };
 		1F94C5DE2AA4AB0300F6329A /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
 		1F94C5E02AA4AB5C00F6329A /* Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
@@ -124,6 +130,16 @@
 				1F32F2EB2AA3C59A00DA1330 /* CheckedContinuationDataServices.swift */,
 			);
 			path = Continuations;
+			sourceTree = "<group>";
+		};
+		1F4772532AE9737700FDAB6E /* Sendable */ = {
+			isa = PBXGroup;
+			children = (
+				1F4772542AE97FBF00FDAB6E /* SendableView.swift */,
+				1F4772562AE97FCD00FDAB6E /* SendableViewModel.swift */,
+				1F4772582AE97FDC00FDAB6E /* SendableActor.swift */,
+			);
+			path = Sendable;
 			sourceTree = "<group>";
 		};
 		1F94C5DB2AA4640800F6329A /* StructClassActor */ = {
@@ -214,6 +230,7 @@
 		1FC7D6012A9B7CA300D52721 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				1F4772532AE9737700FDAB6E /* Sendable */,
 				1F9DE82B2AAC6F2700FB8152 /* GlobalActors */,
 				1F94C5E82AA5090A00F6329A /* Actors */,
 				1F94C5DB2AA4640800F6329A /* StructClassActor */,
@@ -222,20 +239,20 @@
 				1F05BD982A9F0851008F6594 /* AsyncLet */,
 				1F05BD932A9EC2D8008F6594 /* Tasks */,
 				1FEA230B2A9D1D27004C4717 /* AsyncAwait */,
-				1FEA23042A9D00B4004C4717 /*  DownloadImageAsync */,
+				1FEA23042A9D00B4004C4717 /* DownloadImageAsync */,
 				1FC7D5FD2A9B7C6600D52721 /* DoCatchTryThrow */,
 			);
 			path = Features;
 			sourceTree = "<group>";
 		};
-		1FEA23042A9D00B4004C4717 /*  DownloadImageAsync */ = {
+		1FEA23042A9D00B4004C4717 /* DownloadImageAsync */ = {
 			isa = PBXGroup;
 			children = (
 				1FEA23052A9D00BE004C4717 /*  DownloadImageAsyncView.swift */,
 				1FEA23072A9D00C6004C4717 /*  DownloadImageAsyncViewModel.swift */,
 				1FEA23092A9D00D0004C4717 /*  DownloadImageAsyncServices.swift */,
 			);
-			path = " DownloadImageAsync";
+			path = DownloadImageAsync;
 			sourceTree = "<group>";
 		};
 		1FEA230B2A9D1D27004C4717 /* AsyncAwait */ = {
@@ -343,10 +360,13 @@
 				1F94C5E52AA4AB9C00F6329A /* ARC.swift in Sources */,
 				1FEA230A2A9D00D0004C4717 /*  DownloadImageAsyncServices.swift in Sources */,
 				1F94C5E12AA4AB5C00F6329A /* Classes.swift in Sources */,
+				1F4772552AE97FBF00FDAB6E /* SendableView.swift in Sources */,
 				1F05BD952A9EC2F5008F6594 /* TasksView.swift in Sources */,
+				1F4772572AE97FCD00FDAB6E /* SendableViewModel.swift in Sources */,
 				1F94C5EA2AA5091E00F6329A /* ActorsDataManager.swift in Sources */,
 				1F32F2E82AA3C57B00DA1330 /* CheckedContinuationView.swift in Sources */,
 				1F05BD972A9EC303008F6594 /* TasksViewModel.swift in Sources */,
+				1F4772592AE97FDC00FDAB6E /* SendableActor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
